@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "nQIkHRNvPoLZdrx+qZ4wLT7pl9oqoaqQa3GaX6yxhFz2xQ3o3eBJQk4coaCmpzgE0ydyd0qmVbYb3on03a3mFg==",
+  "success": true,
+  "projectFilePath": "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/AirSensorAi.csproj",
+  "expectedPackageFiles": [
+    "/home/caioocon/.nuget/packages/firebaseadmin/3.4.0/firebaseadmin.3.4.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/google.api.gax/4.8.0/google.api.gax.4.8.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/google.api.gax.rest/4.8.0/google.api.gax.rest.4.8.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/google.apis/1.73.0/google.apis.1.73.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/google.apis.auth/1.73.0/google.apis.auth.1.73.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/google.apis.core/1.73.0/google.apis.core.1.73.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.aspnetcore.openapi/8.0.24/microsoft.aspnetcore.openapi.8.0.24.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/system.codedom/7.0.0/system.codedom.7.0.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
