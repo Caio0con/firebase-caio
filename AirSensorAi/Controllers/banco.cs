@@ -7,8 +7,9 @@ class banco
 {
     static async Task Main()
     {
-        string apiUrl = "https://air-sensor-ai--caiohenry18.replit.app/api/DHT";
-
+        // string apiUrl = "https://air-sensor-ai--caiohenry18.replit.app/api/DHT";
+        string apiUrl = "https://firebase-caio--caioocon.replit.app/api/DHT";
+        
         string firebaseUrl =
             "https://airsensorai-default-rtdb.firebaseio.com/sensores.json";
 
