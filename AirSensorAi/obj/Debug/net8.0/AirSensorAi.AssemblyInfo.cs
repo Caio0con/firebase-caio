@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirSensorAi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ebd5c47cdbfa02dc4ca1f21674d7693f657532")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c52da38ae5343ad460bfe62d7c53ce91c8cc714")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirSensorAi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirSensorAi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
