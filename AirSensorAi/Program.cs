@@ -1,3 +1,5 @@
+using System.Text;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -31,3 +33,28 @@ app.UseCors("AllowAll");
 app.UseRouting();
 app.MapControllers();
 app.Run();
+
+string apiUrl = "https://firebase-caio--caioocon.replit.app/api/DHT";
+
+string firebaseUrl =
+    "https://airsensorai-default-rtdb.firebaseio.com/sensores.json";
+
+using var http = new HttpClient();
+
+// GET na API
+var apiResponse = await http.GetAsync(apiUrl);
+apiResponse.EnsureSuccessStatusCode();
+
+var jsonApi = await apiResponse.Content.ReadAsStringAsync();
+
+// POST no Firebase
+var content = new StringContent(
+    jsonApi,
+    Encoding.UTF8,
+    "application/json"
+);
+
+await http.PostAsync(firebaseUrl, content);
+
+Console.WriteLine("✅ Dados enviados para o Firebase");
+Console.WriteLine(jsonApi);

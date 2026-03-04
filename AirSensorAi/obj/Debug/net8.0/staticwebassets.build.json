@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "AUDDraS9qAgeA39OxSnHO65kQj7p3pX/8fdH/phnHOg=",
+  "Hash": "KoGegbSX6IPCrx0jgQ2Cq/q+XzEy/0weZfOa1dmn5CA=",
   "Source": "AirSensorAi",
   "BasePath": "_content/AirSensorAi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
