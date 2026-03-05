@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nQIkHRNvPoLZdrx+qZ4wLT7pl9oqoaqQa3GaX6yxhFz2xQ3o3eBJQk4coaCmpzgE0ydyd0qmVbYb3on03a3mFg==",
+  "dgSpecHash": "GyplqBre9BhTRAFxl5KNLF6PtOMVhMn8ZnQ2OEmjWfON2C+3OYuHd7865oZ0VnbMuOloysCJ5LgmfcVGWYeI8A==",
   "success": true,
-  "projectFilePath": "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/AirSensorAi.csproj",
+  "projectFilePath": "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/AirSensorAi.csproj",
   "expectedPackageFiles": [
     "/home/caioocon/.nuget/packages/firebaseadmin/3.4.0/firebaseadmin.3.4.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/google.api.gax/4.8.0/google.api.gax.4.8.0.nupkg.sha512",

@@ -4,6 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/[controller]")]
 public class DHTController : ControllerBase
 {
+
+    private readonly FirebaseService _firebaseService;
+
+    public DHTController(FirebaseService firebaseService)
+    {
+        _firebaseService = firebaseService;
+    }
+
     public static List<DeviceDto> DeviceDataList = new List<DeviceDto>();
 
     [HttpPost]

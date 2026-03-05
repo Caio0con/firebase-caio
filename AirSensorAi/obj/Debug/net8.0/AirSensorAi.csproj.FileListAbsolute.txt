@@ -77,3 +77,14 @@ C:/Users/letic/Desktop/Unimar/air-sensor-ai/AirSensorAi/obj/Debug/net8.0/ref/Air
 /home/caioocon/Downloads/air-sensor-ai/AirSensorAi/bin/Debug/net8.0/System.Management.dll
 /home/caioocon/Downloads/air-sensor-ai/AirSensorAi/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Management.dll
 /home/caioocon/Downloads/air-sensor-ai/AirSensorAi/obj/Debug/net8.0/AirSensorAi.csproj.CopyComplete
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.csproj.AssemblyReference.cache
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.GeneratedMSBuildEditorConfig.editorconfig
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.AssemblyInfoInputs.cache
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.AssemblyInfo.cs
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.csproj.CoreCompileInputs.cache
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.MvcApplicationPartsAssemblyInfo.cs
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.MvcApplicationPartsAssemblyInfo.cache
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.sourcelink.json
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.dll
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/refint/AirSensorAi.dll
+/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/Debug/net8.0/AirSensorAi.pdb

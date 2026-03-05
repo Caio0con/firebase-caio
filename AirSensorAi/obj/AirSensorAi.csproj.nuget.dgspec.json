@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/AirSensorAi.csproj": {}
+    "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/AirSensorAi.csproj": {}
   },
   "projects": {
-    "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/AirSensorAi.csproj": {
+    "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/AirSensorAi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/AirSensorAi.csproj",
+        "projectUniqueName": "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/AirSensorAi.csproj",
         "projectName": "AirSensorAi",
-        "projectPath": "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/AirSensorAi.csproj",
+        "projectPath": "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/AirSensorAi.csproj",
         "packagesPath": "/home/caioocon/.nuget/packages/",
-        "outputPath": "/home/caioocon/Downloads/air-sensor-ai/AirSensorAi/obj/",
+        "outputPath": "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/caioocon/.nuget/NuGet/NuGet.Config"
