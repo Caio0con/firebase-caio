@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "GyplqBre9BhTRAFxl5KNLF6PtOMVhMn8ZnQ2OEmjWfON2C+3OYuHd7865oZ0VnbMuOloysCJ5LgmfcVGWYeI8A==",
+  "dgSpecHash": "hYFPMpvlfMg=",
   "success": true,
   "projectFilePath": "/home/caioocon/Downloads/air-sensor-ai(meu)/AirSensorAi/AirSensorAi.csproj",
   "expectedPackageFiles": [
     "/home/caioocon/.nuget/packages/firebaseadmin/3.4.0/firebaseadmin.3.4.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/firebasedatabase.net/5.0.0/firebasedatabase.net.5.0.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/google.api.gax/4.8.0/google.api.gax.4.8.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/google.api.gax.rest/4.8.0/google.api.gax.rest.4.8.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/google.apis/1.73.0/google.apis.1.73.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/google.apis.auth/1.73.0/google.apis.auth.1.73.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/google.apis.core/1.73.0/google.apis.core.1.73.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/litedb/5.0.17/litedb.5.0.17.nupkg.sha512",
     "/home/caioocon/.nuget/packages/microsoft.aspnetcore.openapi/8.0.24/microsoft.aspnetcore.openapi.8.0.24.nupkg.sha512",
     "/home/caioocon/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -22,7 +24,11 @@
     "/home/caioocon/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "/home/caioocon/.nuget/packages/system.codedom/7.0.0/system.codedom.7.0.0.nupkg.sha512",
     "/home/caioocon/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
-    "/home/caioocon/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512"
+    "/home/caioocon/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/system.reactive/6.0.0/system.reactive.6.0.0.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "/home/caioocon/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.12/microsoft.netcore.app.host.linux-x64.8.0.12.nupkg.sha512"
   ],
   "logs": []
 }

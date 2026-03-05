@@ -20,6 +20,24 @@
           }
         }
       },
+      "FirebaseDatabase.net/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "LiteDB": "5.0.17",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Reactive": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Api.Gax/4.8.0": {
         "type": "package",
         "dependencies": {
@@ -102,6 +120,19 @@
         "runtime": {
           "lib/net6.0/Google.Apis.Core.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "LiteDB/5.0.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -309,6 +340,22 @@
             "rid": "win"
           }
         }
+      },
+      "System.Reactive/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
       }
     }
   },
@@ -329,6 +376,19 @@
         "lib/net6.0/FirebaseAdmin.xml",
         "lib/netstandard2.0/FirebaseAdmin.dll",
         "lib/netstandard2.0/FirebaseAdmin.xml"
+      ]
+    },
+    "FirebaseDatabase.net/5.0.0": {
+      "sha512": "tU2JF31msyK30cN1fqcRfeyRikobOfx9FKmgHVINHSN0NnP+DqG89KkFdd5ebefDLthG4Ac9yLnXjOpeEX+52g==",
+      "type": "package",
+      "path": "firebasedatabase.net/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebasedatabase.net.5.0.0.nupkg.sha512",
+        "firebasedatabase.net.nuspec",
+        "lib/netstandard2.0/Firebase.dll",
+        "lib/netstandard2.0/Firebase.xml"
       ]
     },
     "Google.Api.Gax/4.8.0": {
@@ -433,6 +493,26 @@
         "lib/netstandard2.0/Google.Apis.Core.dll",
         "lib/netstandard2.0/Google.Apis.Core.pdb",
         "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "LiteDB/5.0.17": {
+      "sha512": "cKPvkdlzIts3ZKu/BzoIc/Y71e4VFKlij4LyioPFATZMot+wB7EAm1FFbZSJez6coJmQUoIg/3yHE1MMU+zOdg==",
+      "type": "package",
+      "path": "litedb/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.17.nupkg.sha512",
+        "litedb.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/8.0.24": {
@@ -958,11 +1038,40 @@
         "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "type": "package",
+      "path": "system.reactive/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FirebaseAdmin >= 3.4.0",
+      "FirebaseDatabase.net >= 5.0.0",
       "Google.Apis.Auth >= 1.73.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.24",
       "Newtonsoft.Json >= 13.0.4",
@@ -1000,7 +1109,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1009,6 +1124,10 @@
           "FirebaseAdmin": {
             "target": "Package",
             "version": "[3.4.0, )"
+          },
+          "FirebaseDatabase.net": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Google.Apis.Auth": {
             "target": "Package",
@@ -1038,6 +1157,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.12, 8.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.12, 8.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.12, 8.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1046,7 +1179,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/caioocon/.dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
